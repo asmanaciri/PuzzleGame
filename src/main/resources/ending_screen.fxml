@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EndingScreenController"
+      alignment="CENTER" prefHeight="200.0" prefWidth="400.0">
+    <children>
+        <Label fx:id="congratsLabel" text="Congratulations!"
+               style="-fx-font-size: 24; -fx-font-weight: bold;"
+               VBox.vgrow="ALWAYS" />
+    </children>
+    <padding>
+        <Insets top="20.0" bottom="20.0" />
+    </padding>
+</VBox>
